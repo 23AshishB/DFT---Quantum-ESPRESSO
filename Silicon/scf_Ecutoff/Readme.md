@@ -13,6 +13,6 @@ To run script file->
 or 
 sh si_script.sh
 
-To plot .dat file
+To plot-> .dat file
 xmgrace Si.dat
 or write a .py file and run it by python.py
