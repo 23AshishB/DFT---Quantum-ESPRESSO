@@ -11,6 +11,7 @@ To run in background
 mpirun -np 4 pw.x < si.scf.in > si.scf.out &
 # to see output file while running
 tail -f si.scf.out
+```
 
 To run script file
 ```
