@@ -1,18 +1,30 @@
-To run input file use the following command->
+To run input file use the following command
+```
 pw.x < si.scf.in > si.scf.out
-
-For parallel excecution->
+```
+For parallel excecution
+```
 mpirun -np 4 pw.x < si.scf.in > si.scf.out
-
-To run in background->
+```
+To run in background
+```
 mpirun -np 4 pw.x < si.scf.in > si.scf.out &
-tail -f si.scf.out ## see live output
+# to see output file while running
+tail -f si.scf.out
 
-To run script file->
+To run script file
+```
 ./si_script.sh
+```
 or 
+```
 sh si_script.sh
+```
 
-To plot-> .dat file
+To plot .dat file
+```
 xmgrace Si.dat
-or write a .py file and run it by python.py
+```
+or write a .py file and run it by 
+```
+python.py
