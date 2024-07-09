@@ -1,0 +1,6 @@
+&DOS
+    prefix  = 'unitcell'
+    Emin = -8.50, Emax = 0.50
+    fildos = 'unitcelldos.dat'
+    outdir = './'
+/
