@@ -1,0 +1,6 @@
+&bands
+    prefix  = 'unitcell'
+    filband = 'unitcellbands.dat'
+    outdir = './'
+ /
+
