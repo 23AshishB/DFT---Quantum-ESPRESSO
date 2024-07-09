@@ -1,5 +1,6 @@
 First run scf file  
-Then nscf file 
+Then nscf file   
+
 Then run dos file  
 ```
 dos.x <si.dos.in> si.dos.out
