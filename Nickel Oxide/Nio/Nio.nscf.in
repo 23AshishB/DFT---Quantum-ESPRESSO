@@ -1,0 +1,25 @@
+&control
+    calculation='nscf',
+    pseudo_dir = './pseudos/',
+    outdir='./tmp/',
+    prefix='NiO',
+ /
+ &system
+    ibrav = 2,
+    celldm(1) =7.9179,
+    nat = 2 ,
+    ntyp = 2 ,
+    ecutwfc = 70.0,occupations = 'tetrahedra',
+ /
+ &electrons
+    mixing_beta = 0.3,
+ /
+ATOMIC_SPECIES
+Ni  58.6934   Ni.pbesol-spn-kjpaw_psl.1.0.0.UPF
+O  15.9994   O.pbesol-n-kjpaw_psl.1.0.0.UPF
+ATOMIC_POSITIONS crystal
+Ni  0.0000000000  0.0000000000  0.0000000000
+O   0.5000000000  0.5000000000  0.5000000000
+K_POINTS automatic
+14 14 14 0 0 0
+
