@@ -1,0 +1,6 @@
+&bands
+# same prefix as scf and nscf file
+    prefix  = 'supercell'
+    filband = 'supercellbands.dat'
+    outdir = './'
+ /
