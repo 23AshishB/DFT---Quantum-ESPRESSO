@@ -1,0 +1,8 @@
+&DOS
+    prefix='NiO'
+    outdir='./tmp/'
+    fildos='Nio.dos.dat'
+    emin=5
+    emax=25
+/
+
