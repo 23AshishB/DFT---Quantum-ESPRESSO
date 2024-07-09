@@ -1,2 +1,2 @@
-# DFT---Quantum-Expresso
+# DFT - Quantum-Expresso
 Tool to study electronic properties of solids
