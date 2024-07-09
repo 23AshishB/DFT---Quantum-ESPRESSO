@@ -1,6 +1,6 @@
 &bands
 # should have same prefix
     prefix  = 'silicon'
-    filband = 'bands.dat'
+    filband = 'si.bands.dat'
     outdir = './'
  /
