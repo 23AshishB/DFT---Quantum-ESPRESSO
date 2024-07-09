@@ -4,8 +4,8 @@
     prefix='DOS',
     tstress = .true.
     tprnfor = .true.
-    pseudo_dir = './',
-    outdir='./'
+    pseudo_dir = './pseudos/',
+    outdir='./tmp/'
  /
  &system
     ibrav=  0, nat=  16, ntyp= 1,
