@@ -1,0 +1,6 @@
+&bands
+  outdir='./tmp/'
+  prefix='NiO',
+  filband = 'NiO.bandsup.dat',
+  spin_component = 1,
+/
