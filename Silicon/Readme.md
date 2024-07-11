@@ -6,7 +6,7 @@ vesta POSCAR
 
 By running cutoff energy and Kpoint calculations (scf) converged value of these can found out.  
 
-Now it is time to find the band struture of Si, which here is started with primitive cell of silicon (2 atoms).  
+Now it is time to find the band struture of Si, which here is started with the primitive cell of silicon (2 atoms).  
 
 Just out of curiosity let see if we can get the same band structure and DOS for unitcell (8 atoms) of silicon or 2x2x2 Supercell(16 atoms) of silicon. However after looking at the results it can be seen that DOS is pretty much the same, but the bands structure isn't. So what could be the reaosn?  
 
